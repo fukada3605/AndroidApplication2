@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication4"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE2" />
+12-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_ALT_STORAGE" />
+13-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:7:5-83
+13-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:7:22-81
+14
+15    <!-- Include required permissions for Google Mobile Ads to run -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\.gradle\caches\transforms-2\files-2.1\f01c9d2173dbcd623c1123317881bb07\jetified-play-services-ads-lite-18.3.0\AndroidManifest.xml:23:5-67
+16-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\.gradle\caches\transforms-2\files-2.1\f01c9d2173dbcd623c1123317881bb07\jetified-play-services-ads-lite-18.3.0\AndroidManifest.xml:23:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\.gradle\caches\transforms-2\files-2.1\f01c9d2173dbcd623c1123317881bb07\jetified-play-services-ads-lite-18.3.0\AndroidManifest.xml:24:5-79
+17-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\.gradle\caches\transforms-2\files-2.1\f01c9d2173dbcd623c1123317881bb07\jetified-play-services-ads-lite-18.3.0\AndroidManifest.xml:24:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\.gradle\caches\transforms-2\files-2.1\5d35de9d7b8aa85fb9f41e38a227c7d2\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+18-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\.gradle\caches\transforms-2\files-2.1\5d35de9d7b8aa85fb9f41e38a227c7d2\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+19
+20    <application
+20-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:9:5-30:19
+21        android:allowBackup="true"
+21-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:10:9-35
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:11:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:12:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:13:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:14:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:15:9-40
+29        <activity android:name="com.example.myapplication4.MainActivity5" >
+29-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:17:9-23:20
+29-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:17:19-48
+30            <intent-filter>
+30-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:18:13-22:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:19:17-69
+31-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:19:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:21:17-77
+33-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:21:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:24:9-26:20
+37            android:name="com.example.myapplication4.FileList"
+37-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:24:19-43
+38            android:label="@string/app_name" >
+38-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:25:13-45
+39        </activity>
+40        <activity
+40-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:27:9-29:20
+41            android:name="com.example.myapplication4.SubActivity"
+41-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:27:19-46
+42            android:label="@string/app_name" >
+42-->C:\Users\akaun.v5UVJjpx.31810157TSUYOSH\AndroidStudioProjects\MyApplication5\app\src\main\AndroidManifest.xml:28:13-45
+43        </activity>
+44    </application>
+45
+46</manifest>

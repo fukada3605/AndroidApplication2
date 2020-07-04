@@ -1,0 +1,41 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication4">
+
+    <item
+        android:id="@+id/menu_back"
+        android:icon="@drawable/rtn"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:title="Setting"
+        android:id="@+id/menu_settings"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/ViewPt7"
+                android:title="7" />
+            <item
+                android:id="@+id/ViewPt14"
+                android:title="14" />
+            <item
+                android:id="@+id/ViewPt21"
+                android:title="21"/>
+            <item
+                android:id="@+id/ViewPt28"
+                android:title="28" />
+            <item
+                android:id="@+id/ViewPt35"
+                android:title="35" />
+            <item
+                android:id="@+id/ViewPt42"
+                android:title="42" />
+        </menu>
+    </item>
+    <item android:title="Help"
+        android:id="@+id/menu_help"
+        app:showAsAction="never" />
+
+</menu>
